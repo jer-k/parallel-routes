@@ -11,12 +11,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+                                     breadcrumbs
 }: Readonly<{
   children: React.ReactNode;
+  breadcrumbs: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      {breadcrumbs}
+      {children}
+      </body>
     </html>
   );
 }
