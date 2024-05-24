@@ -2,7 +2,7 @@
 
 With the Release of [Next 15 RC](https://nextjs.org/blog/next-15-rc) this issue has been resolved
 
-## Updated to fix dynamic routes
+## Updated to fix static + dynamic routes
 
 [Provide non-dynamic segments to catch-all parallel routes](https://github.com/vercel/next.js/pull/65233)
 
